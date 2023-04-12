@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calificaciones del alumno</title>
+    <link rel="stylesheet" href="./css/EstiloPromedio.css">
+  </head>
+  <body>
+    <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+        <input type="checkbox" id="toggle">
+		<div class="contenedor">
+      <script src="./js/calificaciones.js"></script>
+    <h1>CALCULADORA EL PROMEDIO</h1>
+    <img class="gif" src="./img/promedio.gif" alt=""><br><br>
+      <label for="calificacion1">Calificación 1:</label>
+      <input type="number" id="calificacion1" name="calificacion1"><br><br>
+      <label for="calificacion2">Calificación 2:</label>
+      <input type="number" id="calificacion2" name="calificacion2"><br><br>
+      <label for="calificacion3">Calificación 3:</label>
+      <input type="number" id="calificacion3" name="calificacion3"><br><br>
+      <input class="boton" type="button" value="Calcular promedio" onclick="calcularPromedio()">
+      <a href="menu.html"> <img  class="img" src="./img/11.png" alt=""> Salir al menu</a>
+    </form>
+    <p id="resultado"></p>
+  </body>
+</html>

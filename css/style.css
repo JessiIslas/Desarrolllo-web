@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+html {
+    background-color: #e3c3ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+  }
+  
+  h2,h1,label {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  
+  
+  li{
+    color: rgb(110, 24, 114);
+  }
+  
+  .accesos{
+    text-decoration: none;
+    display: flex;
+    font-size: 200%;
+    background-color: #a8c1d0;
+    justify-content: center;
+
+    
+  }
+  
+  .menu{
+    padding: 10 ;
+  }
+  
+  .columnas {
+    display: flex;
+    justify-content: left;
+    background-color: #8a4172;
+    
+  }
+  
+  .columna{
+    margin: 10px 5px ;
+    padding: 10 20px 20px 20px;
+  }
+  
+  .con{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contactos{
+    width: 200px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #a97c95;
+    text-align: center;
+  
+  }
+  
+  .contacto{
+    width: 100%;
+    padding: 10 10px 10px 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px;
+    text-align: center;
+  
+  
+  }
+  
+  button{
+    width: 100%;
+    background-color: #6768b4;
+    padding: 12px;
+    justify-content: center;
+  }
+  
+  .img{
+    width: 100px;
+    
+  }
+  
+footer{
+    text-align: center;
+    background-color: #77b5e8;
+    text-size-adjust: 16;
+}

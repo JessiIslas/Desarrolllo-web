@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Descuentos en autos</title>
+    <link rel="stylesheet" href="./css/EstiloDescuento.css">
+  </head>
+  <body>
+    <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+        <input type="checkbox" id="toggle">
+		<div class="contenedor">
+    <h1>CALCULADORA DE DESCUENTOS EN AUTOS</h1>
+    <img class="gif" src="./img/descuento.gif" alt=""><br><br>
+    <form id="auto-form">
+      <label for="marca-input">Marca:</label>
+      <input type="text" id="marca-input" name="marca"><br><br>
+      <label for="modelo-input">Modelo:</label>
+      <input type="text" id="modelo-input" name="modelo"><br><br>
+      <button type="submit">CALCULAR DESCUENTO</button>
+      <a href="menu.html"> <img  class="img" src="./img/11.png" alt=""> Salir al menu</a>
+    </form>
+    <p id="descuento-output"></p>
+    <script src="./js/descuentos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+h1{
+    color: rgb(39, 158, 166);
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: #f4f5f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+#toggle {
+    display: none;
+  }
+
+  #label_toggle{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    color: black;
+  }
+  .dark{
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    transition: all 1.5s ease;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 165px repeat(5, 75px);
+    background-color: #062841;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+
+button {
+    cursor: pointer;
+    margin: 3px;
+    padding: 0;
+    border-radius: 40px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #2b7cb5;
+    color: #f4f5f1;
+    
+}
+
+button:active {
+    background-color: #6907c4;
+}
+
+button:focus {
+    outline: none;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.display {
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #989191;
+    color: #f4f5f1;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    
+}
+
+#valor-actual {
+    font-size: 2em;
+}
+
+#valor-anterior {
+    font-size: 2em;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html large="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./css/EstiloNumeroMayor.css">
+		<title>Encontrar el número mayor</title>
+</head>
+  <body>
+	<label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+        <input type="checkbox" id="toggle">
+		<div class="contenedor">
+			<script src="./js/comparador.js"></script>
+			<h1>ENCONTRAR EL NUMERO MAYOR</h1>
+			<img class="gif" src="./img/comparacion.gif" alt="">
+			<form>
+				<label>Ingrese el primer número:</label>
+				<input type="number" id="num1">
+				<br><br>
+				<label>Ingrese el segundo número:</label>
+				<input type="number" id="num2">
+				<br><br>
+				<input class="boton" type="button" value="Encontrar el número mayor" onclick="encontrarMayor()">
+				<a href="menu.html"> <img  class="img" src="./img/11.png" alt=""> Salir al menu</a>
+			</form>
+	<p id="resultado"></p>
+</body>
+</html>
